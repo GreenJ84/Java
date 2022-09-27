@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+.title{
+	margin: 20px 0px 20px 15%;
+	color: #f08080;
+}
+
+#display{
+	border: 5px solid #f08080 !important;
+	width: 70% !important;
+	margin: 0px 15% !important;
+}
