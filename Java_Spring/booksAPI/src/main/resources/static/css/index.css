@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.title{
+	width: 40%;
+	text-align:center;
+	margin: 15px 30%;
+	font-size: 40px;
+	text-decoration: underline;
+}
+.table{
+	width: 70% !important;
+	margin: 0px 15% !important;
+	
+}
+.bookTitle{
+	font-size: 30px;
+	text-decoration: underline;
+}
+.body{
+	padding-left: 15px;
+}
+.create{
+	position:fixed;
+	right: 20px;
+	top: 15px;
+}
+.form{
+	width:60%;
+	margin: 0px 20%;
+	position: relative;
+	padding-bottom: 50px;
+}
+.input{
+	width: 60%
+}
+.button{
+	width: 15%;
+	height: 30px;
+	background-color: grey;
+	border: 1px solid black;
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+}
