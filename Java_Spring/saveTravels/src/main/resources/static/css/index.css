@@ -1,1 +1,102 @@
 @charset "UTF-8";
+body{
+	background-color: lightgrey;
+}
+
+.title{
+	font-size: 8vw;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.expenseForm, .expenseList{
+	position: relative;
+	margin: 2vw auto;
+	background-color: darkgrey;
+	border-radius: 20px;
+	border: 1px solid rgb(93, 95, 97);
+	padding: 2vw 4vw;
+}
+
+.expenseForm{
+	width: 60%;
+	box-shadow: 2px 2px 3px black;
+}
+
+.form{
+	display: none;
+}
+
+.top{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bottom{
+	display:flex;
+	align-items: center;
+	width: 100%;
+}
+
+.button{
+	font-size: 1.5vw;
+	display: inline;
+	background-color: lightblue;
+	border: 1px solid blue;
+	box-shadow: 2px 2px 2px blue;
+	border-radius: 5px;
+	width: 20%;
+	height: 40px;
+}
+.button:hover{
+	background-color: darkblue;
+	color: white;
+	border-radius: 25px;
+}
+
+.button2{
+	font-size: 1.5vw;
+	display: inline;
+	background-color: rgb(166, 223, 228);
+	border: 1px solid blue;
+	border-radius: 5px;
+	min-width: 40%;
+	max-width: 70%;
+	height: 30px;
+	padding: 1vw;
+}
+.button2:hover{
+	background-color: darkblue;
+	color: white;
+	border-radius: 25px;
+}
+
+.notButton{
+	font-size: 1.5vw;
+	background-color: rgb(166, 223, 228, 0);
+	border: none;
+	box-shadow: none;
+}
+.notButton:hover{
+	color: white;
+}
+
+.delete{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.expenseList{
+	width: 90%;
+}
+
+.notLink{
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
